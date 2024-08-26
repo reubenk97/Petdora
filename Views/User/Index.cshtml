@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "_LoginRegLayout";
+}
+
+<h1 class="mt-3">Welcome to Petdora!</h1>
+<div class="row mt-5 justify-content-between">
+    @await Html.PartialAsync("_Register", new User())
+    @await Html.PartialAsync("_Login")
+</div>
