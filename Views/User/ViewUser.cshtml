@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Account";
+}
+
+<div class="row">
+    <div class="col-3 border border-dark rounded p-3 m-3 d-flex flex-column align-items-center">
+        <img src="#" alt="pfp"/>
+        <a asp-action="EditUser" asp-controller="User">Edit Profile</a>
+    </div>
+    <div class="col-5 border border-dark rounded p-3 m-3">
+        <h3>Username #CHANGE</h3>
+        <h4>Bio #CHANGE</h4>
+        <h5>Pets: </h5>
+        @* List of pets with link to pet profile page *@
+        <div class="border border-dark rounded py-3 m-1 row justify-content-evenly">
+            @* List of recent posts *@
+            <div class="border border-dark rounded p-3 col-3">POST</div>
+            <div class="border border-dark rounded p-3 col-3">POST</div>
+            <div class="border border-dark rounded p-3 col-3">POST</div>
+        </div>
+    </div>
+</div>

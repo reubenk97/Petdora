@@ -61,6 +61,17 @@ public class UserController : Controller
         return RedirectToAction("Dashboard", "Post");
     }
 
+    [HttpGet("users/{userId}")]
+    public IActionResult ViewUser (int userId)
+    {
+        User? ThisUser = _context.Users.FirstOrDefault(p => p.UserId == userId);
+        if(ThisUser == null)
+        {
+            return RedirectToAction("Dashboard", "Post");
+        }
+        return View(ThisUser);
+    }
+
     [HttpPost("users/logout")]
     public RedirectToActionResult Logout()
     {

@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
+    <nav class="d-flex align-items-baseline justify-content-between p-3">
+        <a asp-action="Dashboard" asp-controller="Post"><h3>PETDORA</h3></a>
+        <input type="search" placeholder="Search" class="form-control w-50"/>
+        <div class="d-flex align-items-baseline gap-3">
+            <a asp-action="ViewUser" asp-controller="User" asp-route-userId="@Context.Session.GetInt32("UserId")">Account</a>
+            <a asp-action="Settings" asp-controller="User">Settings</a>
+            <form asp-action="Logout" asp-controller="User" method="POST"><button class="btn btn-link">Logout</button></form>
+        </div>
+    </nav>
     <div class="container">
         <main>
             @RenderBody()

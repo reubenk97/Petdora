@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Petdora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eba0a41997e3d2cd269b06140c4a3b54f2525de0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Petdora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Petdora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

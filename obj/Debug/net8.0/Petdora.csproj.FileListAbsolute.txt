@@ -102,3 +102,4 @@ C:\Users\reube\OneDrive\Documents\Coding Dojo\Courses\projects\Petdora\obj\Debug
 C:\Users\reube\OneDrive\Documents\Coding Dojo\Courses\projects\Petdora\obj\Debug\net8.0\Petdora.pdb
 C:\Users\reube\OneDrive\Documents\Coding Dojo\Courses\projects\Petdora\obj\Debug\net8.0\Petdora.genruntimeconfig.cache
 C:\Users\reube\OneDrive\Documents\Coding Dojo\Courses\projects\Petdora\obj\Debug\net8.0\ref\Petdora.dll
+C:\Users\reube\OneDrive\Documents\Coding Dojo\Courses\projects\Petdora\obj\Debug\net8.0\Petdora.sourcelink.json
